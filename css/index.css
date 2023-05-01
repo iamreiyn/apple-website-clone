@@ -1,0 +1,283 @@
+@import "https://fonts.googleapis.com/css?family=Poppins";
+
+/* HTML Page */
+
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Poppins", "Helvetica", "Arial";
+}
+
+a {
+    text-decoration: none;
+    color: rgb(52, 133, 226);
+}
+
+/* Navbar Styles */
+
+nav {
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5vh;
+    width: 100%;
+    background-color: rgba(22, 22, 22, 0.8);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    font-size: 13px;
+    padding: 12px;
+}
+
+.navicon {
+    margin-left: 25px;
+}
+
+.navlink {
+    margin-inline: 15px;
+    color: #d3d3d3;
+}
+
+.responsivediv {
+    display: flex;
+}
+
+.respnavbar {
+    display: none;
+}
+
+.applelogo {
+    margin-inline: 25px;
+    margin-top: -2.9px;
+}
+
+/* The info box below the Navbar */
+
+.infobartext {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.infobar {
+    background-color: white;
+    height: 100%;
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Main page - 1 -> iPhone 14 Pro */
+
+.mainpage1 {
+    background-image: url("https://www.apple.com/in/home/images/heroes/iphone-14-pro/hero_iphone14pro_spring__9xo85pm6sbmm_largetall.jpg");
+    height: 588px;
+    background-position: center -35px;
+    background-position-x: center;
+}
+
+.mp1-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.mp1-title1 {
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.mp1-title2 {
+    font-size: 25px;
+}
+
+.mainpagelink {
+    font-size: 20px;
+}
+
+/* Main page - 2 -> iPhone 14 */
+
+.mainpage2 {
+    background-image: url("https://www.apple.com/in/home/heroes/iphone-14/images/hero_iphone14_yellow__eun20sn4imi6_largetall.jpg");
+    background-position-x: center;
+    height: 82vh;
+    width: 100vw;
+}
+
+.mp-default-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(34, 34, 34);
+    line-height: 30px;
+}
+
+.mp2-title1 {
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.mp2-desc {
+    font-size: 23px;
+}
+
+.mainpagelink {
+    font-size: 20px;
+}
+
+/* Main page - 3 -> Apple watch */
+
+.mainpage3 {
+    background-image: url("https://www.apple.com/in/home/images/heroes/apple-watch-series-8/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_largetall.jpg");
+    height: 78vh;
+    background-position-x: center;
+}
+
+.mp3desc {
+    font-size: 23px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Main page - 4 -> grid items */
+
+.mainpage4 {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    flex-basis: 49%;
+    margin: 5px;
+}
+
+.applewatchlogo {
+    margin-top: 60px;
+}
+
+.applewatchcontainer {
+    margin-top: 50px;
+}
+
+.motherday {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    width: 350px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.motherday2 {
+    margin-top: 10px;
+    width: 250px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.promo1 {
+    background-image: url("https://www.apple.com/v/home/az/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_large.jpg");
+    background-position-x: center;
+    height: 560px;
+
+}
+
+.promo2 {
+    background-image: url("https://www.apple.com/v/home/az/images/promos/wwdc23-announce/promo_wwdc23__b68ptht3mro2_large.jpg");
+    background-position-x: center;
+    height: 560px;
+}
+
+.promo3 {
+    background-image: url("https://www.apple.com/v/home/az/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg");
+    background-position-x: center;
+    height: 560px;
+}
+
+.promo4 {
+    background-image: url("https://www.apple.com/v/home/az/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large.jpg");
+    background-position-x: center;
+    height: 560px;
+}
+
+.promo5 {
+    background-image: url("https://www.apple.com/v/home/az/images/promos/mothers-day-2023/airpods/promo__sw58lbodkmqq_large.jpg");
+    background-position-x: center;
+    height: 560px;
+}
+
+.promo6 {
+    background-image: url("https://www.apple.com/in/home/promos/apple-watch-ultra/images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg");
+    background-position-x: center;
+    height: 560px;
+}
+
+#ipadtitle {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+#mactitle {
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+}
+
+#macdescription {
+    margin-top: 10px;
+    color: white;
+    font-size: 19px;
+}
+
+.appletradein {
+    margin-top: 50px;
+}
+
+.wwdc23 {
+    margin-top: 350px;
+}
+
+.wwdc23text {
+    color: white;
+}
+
+/* Footer  */
+
+footer {
+    background-color: rgb(243, 243, 243);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footertext1 {
+    margin: 25px;
+    width: 820px;
+    font-size: 13px;
+    color: rgb(71, 71, 71);
+}
