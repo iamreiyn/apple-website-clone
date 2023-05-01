@@ -9,7 +9,7 @@ View the website: https://montymahato.github.io/apple-website-clone
 - Accurate recreation of the latest Apple website design, including layout, typography, and color scheme.
 - Semantic HTML markup and CSS styling, optimized for web accessibility.
 ## Contributing
-The HTML and styling is not completely organized, if you would like to help then do not hesitate to contribute, thank you!
+The HTML and styling is not completely organized, and many other aspects of the website is not finished as well, such as the Footer and Slider. If you would like to contribute then please do not hesitate to do so, thank you!
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
